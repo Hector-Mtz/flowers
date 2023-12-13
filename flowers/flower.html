@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="img/flowers.png" type="image/x-icon">
-    <title>flowers</title>
+    <title>Flowers to Ale</title>
 </head>
 <body class="container">
     <div class="night"></div>
     <div class="flowers">
+      <div class="flower flower--2 ale" style="display: flex; flex-direction: row; left: -11rem;">
+        <h1 class="flower__g-front" style="color: white; font-size: 15rem; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+           ALE
+        </h1>
+      </div>
       <div class="flower flower--1">
         <div class="flower__leafs flower__leafs--1">
           <div class="flower__leaf flower__leaf--1"></div>
@@ -310,3 +315,15 @@
     <script src="main.js"></script>
   </body>
 </html>
+<style>
+   .ale{
+    bottom: 48rem;
+   }
+
+  @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .ale {
+    bottom: 40rem;
+  }
+}
+</style>
